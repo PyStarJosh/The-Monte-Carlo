@@ -10,6 +10,8 @@ Many retail investors have careers and other obligations that limit they're abil
 - Supports users testing the impact on potential black swan scenarios
 - Provides inflation adjusted outcomes
 - Provide visualization of probable outcomes
+- Allows users to save and compare probable outcomes
+- Compares portfolio verus cash probable outcomes
 
 ## Out of Scope (for now)
 - Full Tax Modeling
