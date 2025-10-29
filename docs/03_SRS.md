@@ -18,9 +18,9 @@ The simulator enables users to:
 - **Portfolio** - A collection of assets with user-defined weights
 
 1.4 References
-[Problem Statement](./01_problem_statement.md)
-[Use Cases](./02_use_cases.md)
-Python Libraries: NumPy, Pandas, Matplotlib 
+- [Problem Statement](./01_problem_statement.md)
+- [Use Cases](./02_use_cases.md)
+- Python Libraries: NumPy, Pandas, Matplotlib 
 
 ### 2. Overall Description
 
@@ -41,15 +41,14 @@ This is a standalone simulation tool designed for learning and research use
 ### 3. Specific Requirements
 
 #### 3.1 Functional Requirements
-FR-1 | Allows user to input portfolio details | High
-FR-2 | Allows user to include potential black swan events | Medium
-FR-3 | Run Monte Carlo Simulations | High
-FR-4 | Display percentile distrubtion and charts | High
-FR-5 | Save/Export Results | Medium
+- FR-1 | Allows user to input portfolio details | High
+- FR-2 | Allows user to include potential black swan events | Medium
+- FR-3 | Run Monte Carlo Simulations | High
+- FR-4 | Display percentile distrubtion and charts | High
+- FR-5 | Save/Export Results | Medium
 
 #### 3.2 Non-Functional Requirements
-NFR-1 | Performance | 10,000 simulations must be completed in <= 5seconds | High
-NFR-2 | Usability | User can run simulation in <= 3steps
-NFR-3 | Reliabiliy | Consistent results fkr fixed random seed
-NFR-4 | Portability | Works in Windows, MacOS, and Linux
-
+- NFR-1 | Performance | 10,000 simulations must be completed in <= 5seconds | High
+- NFR-2 | Usability | User can run simulation in <= 3steps
+- NFR-3 | Reliabiliy | Consistent results fkr fixed random seed
+- NFR-4 | Portability | Works in Windows, MacOS, and Linux
