@@ -1,6 +1,7 @@
 # Software Requirements Specification (SRS)
 ## Monte Carlo Portfolio Simulator
 
+
 ### 1. Introduction
 
 #### 1.1 Purpose
@@ -22,6 +23,7 @@ The simulator enables users to:
 - [Use Cases](./02_use_cases.md)
 - Python Libraries: NumPy, Pandas, Matplotlib 
 
+
 ### 2. Overall Description
 
 #### 2.1 Product Perspective
@@ -38,6 +40,7 @@ This is a standalone simulation tool designed for learning and research use
 - Dependent on open-source python library 
 - Python 3.12+
 
+
 ### 3. Specific Requirements
 
 #### 3.1 Functional Requirements
@@ -52,3 +55,25 @@ This is a standalone simulation tool designed for learning and research use
 - NFR-2 | Usability | User can run simulation in <= 3steps
 - NFR-3 | Reliabiliy | Consistent results for fixed random seed
 - NFR-4 | Portability | Works in Windows, MacOS, and Linux
+
+
+### 4. System Features
+
+### 4.1 Core Somulation
+Handles stocashtic iteration, compounding, and data aggregation.
+
+### 4.2 Black Swan Model
+Allows optional event injection with defined probability and severity. 
+
+### 4.3 Visualization
+Generates percentile plots and performance summaries.
+
+
+### 5. Future Enhancements
+- Add tax modeling and further customixation options
+- Include numerous types of asset classes
+- Ability to map retirement age and livelihood based on portfolio performance
+
+
+**Version** 1.0
+**Date** October 2025
