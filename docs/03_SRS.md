@@ -50,5 +50,5 @@ This is a standalone simulation tool designed for learning and research use
 #### 3.2 Non-Functional Requirements
 - NFR-1 | Performance | 10,000 simulations must be completed in <= 5seconds | High
 - NFR-2 | Usability | User can run simulation in <= 3steps
-- NFR-3 | Reliabiliy | Consistent results fkr fixed random seed
+- NFR-3 | Reliabiliy | Consistent results for fixed random seed
 - NFR-4 | Portability | Works in Windows, MacOS, and Linux
