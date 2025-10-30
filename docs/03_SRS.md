@@ -13,12 +13,12 @@ The simulator enables users to:
 - Run monte carlo simulations using historic or generated data
 - Visualize probablististic outcomes for portfolio based on configurations and export results 
 
-1.3 Definitions, Acroynms, and Abbrevations
+#### 1.3 Definitions, Acroynms, and Abbrevations
 - **Monte Carlo Simulation** - Statisticsl modeling technique using random sampling
 - **Black Swan** - Rare, extreme market event causing significant deviation
 - **Portfolio** - A collection of assets with user-defined weights
 
-1.4 References
+#### 1.4 References
 - [Problem Statement](./01_problem_statement.md)
 - [Use Cases](./02_use_cases.md)
 - Python Libraries: NumPy, Pandas, Matplotlib 
@@ -36,7 +36,7 @@ This is a standalone simulation tool designed for learning and research use
 - Display result's visualization and summary
 - Allow user to save and export results
 
-2.3 Constraints
+#### 2.3 Constraints
 - Dependent on open-source python library 
 - Python 3.12+
 
